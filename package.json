@@ -1,0 +1,23 @@
+{
+  "name": "sk-web-base-template",
+  "version": "1.0.0",
+  "description": "Template for web projects. Acts as a reference for developing good applications.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "cat app/css/*.css app/css/*/*.css app/css/content/*/*.css > build/app.css",
+    "watch:css": "catw app/css/*.css app/css/*/*.css app/css/content/*/*.css -o build/app.css",
+    "watch": "npm run watch:css"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "web",
+    "template"
+  ],
+  "author": "sandeepkumaar.c",
+  "license": "ISC",
+  "dependencies": {
+    "catw": "^1.0.1"
+  }
+}

@@ -1,0 +1,17 @@
+.list--col {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.list--row {
+
+}
+
+.list-item {
+  flex: 1;
+}
+
+.list--border {
+  
+}

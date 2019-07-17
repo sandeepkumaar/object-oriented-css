@@ -1,0 +1,122 @@
+/**
+ * font-family // Typeface
+ * font-weight // Font
+ * font-size  // Size // 96px, 60px, 48px, 34px, 24px, 20px
+ * case       // Case
+ * letterspacing // Letter Spacing
+ */
+
+/**
+ * Typeface are applied globally
+ */
+
+
+.h1 {
+  font-weight: lighter;
+  font-size: 96px;
+  text-transform: initial;
+  letter-spacing: -1.5px;
+
+}
+.h2 {
+  font-weight: lighter;
+  font-size: 60px;
+  text-transform: initial;
+  letter-spacing: -0.5px;
+}
+.h3 {
+  font-weight: normal;
+  font-size: 48px;
+  text-transform: initial;
+  letter-spacing: 0px;
+}
+.h4 {
+  font-weight: normal;
+  font-size: 34px;
+  text-transform: initial;
+  letter-spacing: 0.25px;
+}
+.h5 {
+  font-weight: normal;
+  font-size: 24px;
+  text-transform: initial;
+  letter-spacing: 0px;
+}
+.h6 {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: initial;
+  letter-spacing: 0.15px;
+}
+
+
+.sub-1 {
+  font-weight: normal;
+  font-size: 16px;
+  text-transform: initial;
+  letter-spacing: 0.15px;
+}
+.sub-1--bold {
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: initial;
+  letter-spacing: 0.15px;
+}
+
+
+
+.sub-2 {
+  font-weight: bold;
+  /* font-size: 14px;  */ /*actual*/
+  font-size: 13px;
+  text-transform: initial;
+  letter-spacing: 0.1px;
+}
+
+.body-1 {
+  font-weight: normal;
+  font-size: 16px;
+  text-transform: initial;
+  letter-spacing: 0.5px;
+}
+.body-2 {
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: initial;
+  letter-spacing: 0.25px;
+}
+
+.btn-font {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+}
+
+/* annotate imagery*/
+.caption {
+  font-weight: normal;
+  font-size: 12px;
+  text-transform: initial;
+  letter-spacing: 0.4px;
+  opacity: 0.60;
+}
+
+.overline {
+  font-weight: normal;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+
+/* Opacity*/
+.high-opac{
+  opacity: 0.87;
+}
+.med-opac{
+  opacity: 0.60;
+}
+.low-opac{
+  opacity: 0.38;
+}

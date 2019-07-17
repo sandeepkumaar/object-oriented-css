@@ -260,3 +260,12 @@ We will use meyer's css as it is
   - Extended to our needs/latest design taste
   - Unlike other resets (Normalize.css), its *does not include*
   the skin(fonts), content(padding) or layout(margin) properties
+
+
+
+
+
+## Random thoughts
+
+Layout, Container can have margin, border but not padding
+Content can have padding, (border for special case) but not margin 
